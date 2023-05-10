@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container_nav{
+    width: 100%;
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    text-decoration: none;
+}
+.secciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20%;
+}
+.secciones p a{
+    padding: 10px;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-top: auto;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+}
+.container_banner{
+    background-image: url(https://wallpaperstock.net/sneakers%2c-legs%2c-blur-wallpapers_55359_1920x1080.jpg);
+    height: 900px;
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto_banner h1{
+    font-size: 6em;
+    color: #fff;
+    padding: 20px;
+}
+.texto_banner p{
+    font-size: 2.3em;
+    color: #fff;
+    padding: 20px;
+}
+.texto_banner button{
+    background-color: #fff;
+    color: black;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 1.3em;
+    margin: 20px;
+    transition: 0.3s;
+}
+.texto_banner button:hover{
+    transform: scale(1.1);
+}
